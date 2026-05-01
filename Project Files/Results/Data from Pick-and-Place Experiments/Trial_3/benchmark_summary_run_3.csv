@@ -1,0 +1,24 @@
+section,metric,display_name,notes,beam_native,cosserat_native,beam_qp,cosserat_qp,beam_oim,cosserat_oim
+Minimal baseline,cycle_time_s,Cycle time (s),Total task duration.,5.580000000000002,5.520000000000001,6.000000000000005,6.000000000000005,5.700000000000003,5.670000000000003
+Minimal baseline,final_place_error_mm,Final place error (mm),Final task accuracy at the placement target.,0.0,0.0,0.0,0.0,0.0,0.0
+Minimal baseline,mean_tcp_target_error_mm,Mean TCP-target error (mm),Average tracking quality during the run.,21.322593529980125,21.01153517929007,25.77211108322794,26.097473277790524,16.69684108766636,16.996677986965008
+Minimal baseline,integrated_abs_torque,Integrated abs torque,Total actuation effort across the run.,43575.52352427896,49763.97651449839,43022.95017728852,48308.660871799024,44416.090907614715,50937.97524309156
+Minimal baseline,place_success,Place success,End-to-end task success flag.,1.0,1.0,1.0,1.0,1.0,1.0
+Useful diagnostics,scene_dt_s,Scene dt (s),Simulation timestep used for the run.,0.03,0.03,0.03,0.03,0.03,0.03
+Useful diagnostics,timed_out,Timed out,Whether the benchmark exceeded the configured time limit.,0.0,0.0,0.0,0.0,0.0,0.0
+Useful diagnostics,final_state,Final state,Controller state where the run ended.,DONE,DONE,DONE,DONE,DONE,DONE
+Useful diagnostics,attach_success,Attach success,Whether the object was attached at least once.,1.0,1.0,1.0,1.0,1.0,1.0
+Useful diagnostics,peak_abs_torque,Peak abs torque,Highest instantaneous motor effort observed.,5535.879881565608,4749.180480724666,5792.011571385136,7036.666595089354,7530.735546414151,7325.076313474565
+Useful diagnostics,mean_object_follow_error_mm,Mean object-follow error (mm),Average object slip while attached.,3.582225614591959,3.315370081078821,2.7960378868928144,2.919633267098985,3.5888572075653746,3.483046549434686
+Useful diagnostics,max_object_follow_error_mm,Max object-follow error (mm),Worst object slip while attached.,14.646175362835079,14.704173926365131,14.654558096676249,17.655490294640362,15.350000597430709,14.836286145030343
+Useful diagnostics,state_starting_up_s,Time in STARTING_UP (s),Total time spent in this controller state.,2.999999999999995,2.999999999999995,2.999999999999995,2.999999999999995,2.999999999999995,2.999999999999995
+Useful diagnostics,state_wait_for_markers_s,Time in WAIT_FOR_MARKERS (s),Total time spent in this controller state.,0.03,0.03,0.03,0.03,0.03,0.03
+Useful diagnostics,state_pregrasp_open_s,Time in PREGRASP_OPEN (s),Total time spent in this controller state.,0.12,0.09,0.09,0.09,0.09,0.09
+Useful diagnostics,state_approach_pick_s,Time in APPROACH_PICK (s),Total time spent in this controller state.,0.12,0.12,0.12,0.12,0.15,0.15
+Useful diagnostics,state_close_gripper_s,Time in CLOSE_GRIPPER (s),Total time spent in this controller state.,0.8100000000000005,0.8100000000000005,0.8400000000000005,0.8400000000000005,0.8400000000000005,0.8100000000000005
+Useful diagnostics,state_lift_object_s,Time in LIFT_OBJECT (s),Total time spent in this controller state.,0.24,0.24,0.3900000000000001,0.3900000000000001,0.27,0.27
+Useful diagnostics,state_move_above_place_s,Time in MOVE_ABOVE_PLACE (s),Total time spent in this controller state.,0.24,0.21,0.3600000000000001,0.3600000000000001,0.24,0.24
+Useful diagnostics,state_lower_to_place_s,Time in LOWER_TO_PLACE (s),Total time spent in this controller state.,0.21,0.21,0.21,0.21,0.24,0.24
+Useful diagnostics,state_release_object_s,Time in RELEASE_OBJECT (s),Total time spent in this controller state.,0.6000000000000003,0.6000000000000003,0.6000000000000003,0.6000000000000003,0.6000000000000003,0.6000000000000003
+Useful diagnostics,state_return_idle_s,Time in RETURN_IDLE (s),Total time spent in this controller state.,0.18,0.18,0.33000000000000007,0.33000000000000007,0.21,0.21
+Useful diagnostics,state_done_s,Time in DONE (s),Total time spent in this controller state.,0.03,0.03,0.03,0.03,0.03,0.03
